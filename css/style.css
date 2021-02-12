@@ -6,6 +6,21 @@ h1 {
     text-align:center;
 }
 
+/* Basic Styling */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+ 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
 
 .merch {
   float: left;
@@ -33,7 +48,6 @@ width: 33%;
 border: 1px solid white;
 }
 
-
 .music {
   float: left;
   width: 49.7%;
@@ -55,8 +69,14 @@ float: right;
 width: 33%;
 }
 
-.button {
+.size-choose {
   float: right;
+  width: 60%;
+}
+
+.product-price {
+  float: right;
+  width: 70%;
 }
 
   .goodsimage {
