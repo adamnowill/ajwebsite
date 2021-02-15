@@ -206,8 +206,8 @@ html, body {
 }
 
 .pic-ctn {
-  width: 100vw;
-  height: 200px;
+  width: 200vw;
+  height: 300px;
   border: 1px solid white;
 }
 
@@ -235,10 +235,9 @@ html, body {
 }
 
 .pic-ctn {
-  position: relative ;
+  position: relative;
   width: 100vw;
-  height: 300px;
-  margin-top: 15vh;
+  height: 450px;
 }
 
 .pic-ctn > img {
